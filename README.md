@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="public/images/devfree.png" alt="DevFree | Brikman Paul" width="100%" />
+  
+  # 🌐 Página Oficial de **Brikman Paul**
+  **Desarrollador Frontend Freelance**  
+  🎨 Creando experiencias digitales que combinan diseño, tecnología y emoción.  
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+## 🧠 Sobre el Proyecto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este repositorio contiene el código fuente de mi **página oficial** como desarrollador freelance.  
+Inspirada en el estilo visual de [freddiebraun.com](https://www.freddiebraun.com/), fue construida **desde cero** utilizando **React**, **Node 22**, **Tailwind CSS**, y **Framer Motion**, enfocándome en **rendimiento, minimalismo visual y transiciones fluidas**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Mi objetivo con este sitio es mostrar mi perfil profesional, proyectos destacados y mi enfoque artístico como **creador de experiencias digitales cinematográficas**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Tecnologías Utilizadas
 
-## Learn More
+| Categoría | Tecnologías |
+|------------|-------------|
+| ⚛️ Frontend | React 19 • Vite • Next.js (referencias en otros proyectos) |
+| 🎨 Estilos | Tailwind CSS • Framer Motion • Custom Animations |
+| 🧩 Integraciones | React Player • Custom Hooks • Lazy Loading |
+| 🧠 Backend / Node | Node.js 22 • NPM Scripts |
+| 🧰 Herramientas | Git • Vercel • VS Code |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Vista Previa del Sitio
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<div align="center">
+  <img src="public/images/sitio.jpeg" alt="Vista previa del sitio Brikman Paul" width="80%" />
+</div>
 
-## Deploy on Vercel
+> 🎥 El sitio combina video, animaciones suaves y un diseño responsive para una experiencia visual inmersiva.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧑‍💻 Sobre Mí
+
+Soy **Brikman Paul**, desarrollador **Frontend Freelance** con más de **5 años de experiencia** creando interfaces limpias, fluidas y visualmente atractivas.  
+Me especializo en **React**, **Next.js** y **tecnologías de diseño modernas** como Tailwind y Motion para llevar ideas a la pantalla con una identidad visual fuerte.  
+
+> 💡 Creo en el código como una forma de arte: preciso, expresivo y emocional.
+
+---
+
+## ⚙️ Instalación del Proyecto
+
+1. Clona este repositorio:
+
+   ```bash
+   git clone https://github.com/BrikmanP/pagina-oficial-brikman-paul.git
+   cd pagina-oficial-brikman-paul
