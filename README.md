@@ -29,25 +29,6 @@ Mi objetivo con este sitio es mostrar mi perfil profesional, proyectos destacado
 
 ---
 
-## 📸 Vista Previa del Sitio
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/BrikmanP/FrontendCreactiveFreelance/EdicionDelReadme/public/images/sitio.jpeg" alt="Vista previa del sitio Brikman Paul" width="80%" />
-</div>
-
-> 🎥 El sitio combina video, animaciones suaves y un diseño responsive para una experiencia visual inmersiva.
-
----
-
-## 🧑‍💻 Sobre Mí
-
-Soy **Brikman Paul**, desarrollador **Frontend Freelance** con más de **5 años de experiencia** creando interfaces limpias, fluidas y visualmente atractivas.  
-Me especializo en **React**, **Next.js** y **tecnologías de diseño modernas** como Tailwind y Motion para llevar ideas a la pantalla con una identidad visual fuerte.  
-
-> 💡 Creo en el código como una forma de arte: preciso, expresivo y emocional.
-
----
-
 ## ⚙️ Instalación del Proyecto
 
 1. Clona este repositorio:
