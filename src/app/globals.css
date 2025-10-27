@@ -6,6 +6,9 @@
    CONFIGURACIÓN DE FUENTES
    ============================================ */
 
+
+
+
 html,
 body {
   /* Fuente limpia para textos (similar a Freddie Braun) */
@@ -24,6 +27,7 @@ body {
 /* Fuente handwriting para títulos principales */
 h1, h2, h3 {
   font-family: var(--font-dancing), cursive;
+
   font-weight: 700;
 }
 
@@ -161,3 +165,4 @@ h4, h5, h6 {
   max-width: 1000px;
   z-index: 2;
 }
+
