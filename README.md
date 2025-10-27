@@ -11,7 +11,7 @@
 ## 🧠 Sobre el Proyecto
 
 Este repositorio contiene el código fuente de mi **página oficial** como desarrollador freelance.  
-Inspirada en el estilo visual de [freddiebraun.com](https://www.freddiebraun.com/), fue construida **desde cero** utilizando **React**, **Node 22**, **Tailwind CSS**, y **Framer Motion**, enfocándome en **rendimiento, minimalismo visual y transiciones fluidas**.
+Fue construida **desde cero** utilizando **React**, **Node 22**, **Tailwind CSS**, y **Framer Motion**, enfocándome en **rendimiento, minimalismo visual y transiciones fluidas**.
 
 Mi objetivo con este sitio es mostrar mi perfil profesional, proyectos destacados y mi enfoque artístico como **creador de experiencias digitales cinematográficas**.
 
