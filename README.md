@@ -31,9 +31,6 @@ Mi objetivo con este sitio es mostrar mi perfil profesional, proyectos destacado
 
 ## 📸 Vista Previa del Sitio
 
-<div align="center">
-  <img src="public/images/sitio.jpeg" alt="Vista previa del sitio Brikman Paul" width="80%" />
-</div>
 
 > 🎥 El sitio combina video, animaciones suaves y un diseño responsive para una experiencia visual inmersiva.
 
