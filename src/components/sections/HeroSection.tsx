@@ -1,6 +1,4 @@
-// src/components/sections/HeroSection.tsx
 "use client";
-
 import { motion } from "framer-motion";
 import { ImageCard } from "@/components/ui/ImageCard";
 
@@ -17,84 +15,66 @@ export function HeroSection() {
         animate={{ opacity: [0.3, 0.6, 0.3] }}
         transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
       />
-      
-      {/* =======================================================
-          1. TEXTO GIGANTE NEÓN (BRIKMAN PAUL) - IZQUIERDA
-          ======================================================= */}
-      <div 
-        className="absolute left-0 top-0 bottom-0 flex items-center pl-8 md:pl-16"
-        style={{ zIndex: 1 }}
-      >
-        {/* Contenedor de texto alineado a la izquierda */}
-        <div className="flex items-center gap-4 md:gap-8">
-          
-          {/* Primera palabra: BRIKMAN */}
-          <motion.h1
-            initial={{ opacity: 0, x: -150 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1.5, ease: "easeOut", delay: 0.3 }}
-            style={{
-              fontSize: 'clamp(2.5rem, 8vw, 6rem)',
-              fontWeight: 700,
-              lineHeight: 1,
-              letterSpacing: '-0.04em',
-              color: '#ff0000',
-              textShadow: `
-                0 0 15px rgba(255, 0, 0, 0.8),
-                0 0 35px rgba(255, 0, 0, 0.6),
-                0 0 55px rgba(255, 0, 0, 0.4),
-                0 0 80px rgba(255, 0, 0, 0.2)
-              `,
-              userSelect: 'none',
-              textTransform: 'uppercase',
-              fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif'
-            }}
-          >
-            BRIKMAN
-          </motion.h1>
 
-          {/* Segunda palabra: PAUL */}
-          <motion.h1
-            initial={{ opacity: 15, x: 150 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1.5, ease: "easeOut", delay: 0.3 }}
-            style={{
-              fontSize: 'clamp(2.5rem, 8vw, 6rem)',
-              fontWeight: 700,
-              lineHeight: 1,
-              letterSpacing: '-0.04em',
-              color: '#ff0000',
-              textShadow: `
-                0 0 15px rgba(255, 0, 0, 0.8),
-                0 0 35px rgba(255, 0, 0, 0.6),
-                0 0 55px rgba(255, 0, 0, 0.4),
-                0 0 80px rgba(255, 0, 0, 0.2)
-              `,
-              userSelect: 'none',
-              textTransform: 'uppercase',
-              fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif'
-            }}
-          >
-            PAUL
-          </motion.h1>
-        </div>
+      {/* TEXTO GIGANTE NEÓN */}
+      <div 
+        className="absolute flex flex-col items-center justify-center gap-2 md:flex-row md:items-start md:pl-16 pt-16 md:pt-0"
+        style={{ zIndex: 1, top: '5%' }} // Controla la distancia desde arriba en móviles
+      >
+        <motion.h1
+          initial={{ opacity: 0, x: -150 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1.5, ease: "easeOut", delay: 0.3 }}
+          style={{
+            fontSize: 'clamp(2rem, 6vw, 5rem)', // Reducido en pantallas pequeñas
+            fontWeight: 700,
+            lineHeight: 1,
+            letterSpacing: '-0.04em',
+            color: '#ff0000',
+            textShadow: `
+              0 0 15px rgba(255, 0, 0, 0.8),
+              0 0 35px rgba(255, 0, 0, 0.6),
+              0 0 55px rgba(255, 0, 0, 0.4),
+              0 0 80px rgba(255, 0, 0, 0.2)
+            `,
+            userSelect: 'none',
+            textTransform: 'uppercase',
+            fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif'
+          }}
+        >
+          BRIKMAN
+        </motion.h1>
+
+        <motion.h1
+          initial={{ opacity: 0, x: 150 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1.5, ease: "easeOut", delay: 0.3 }}
+          style={{
+            fontSize: 'clamp(2rem, 6vw, 5rem)', // Reducido en pantallas pequeñas
+            fontWeight: 700,
+            lineHeight: 1,
+            letterSpacing: '-0.04em',
+            color: '#ff0000',
+            textShadow: `
+              0 0 15px rgba(255, 0, 0, 0.8),
+              0 0 35px rgba(255, 0, 0, 0.6),
+              0 0 55px rgba(255, 0, 0, 0.4),
+              0 0 80px rgba(255, 0, 0, 0.2)
+            `,
+            userSelect: 'none',
+            textTransform: 'uppercase',
+            fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif'
+          }}
+        >
+          PAUL
+        </motion.h1>
       </div>
 
-      {/* =======================================================
-          2. TARJETA COLGANTE - Capa frontal (z-10)
-          ======================================================= */}
+      {/* TARJETA COLGANTE */}
       <ImageCard /> 
 
-      {/* =======================================================
-          3. TEXTO DESCRIPTIVO - Debajo de la tarjeta
-          ======================================================= */}
-      <div 
-        className="relative max-w-2xl text-center" 
-        style={{ 
-          marginTop: '32rem',
-          zIndex: 10 
-        }}
-      >
+      {/* TEXTO DESCRIPTIVO */}
+      <div className="relative max-w-2xl text-center mt-[40vh] md:mt-[32rem] z-10">
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -105,7 +85,7 @@ export function HeroSection() {
         </motion.p>
       </div>
 
-      {/* Botón de scroll hacia abajo */}
+      {/* Botón de scroll */}
       <motion.button
         onClick={scrollToAbout}
         initial={{ opacity: 0 }}

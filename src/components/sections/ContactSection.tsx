@@ -14,13 +14,12 @@ export function ContactSection() {
       {/* Fondo con textura */}
       <div className="absolute inset-0 bg-tv-static opacity-50 z-0"></div>
 
-      {/* Imagen de chupeta flotante */}
-<div className="absolute top-1/2 right-[-80px] md:right-[-100px] lg:right-[-140px] -translate-y-1/2 z-30">
+      <div className="absolute top-1/2 right-0 md:right-[-100px] lg:right-[-140px] -translate-y-1/2 z-30">
   <motion.div
     initial={{ y: 0, opacity: 1 }}
     animate={{ y: [0, -10, 0], rotate: [0, 2, -2, 0] }}
     transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-    className="w-28 h-28 sm:w-40 sm:h-40 lg:w-52 lg:h-52"
+    className="w-20 sm:w-28 md:w-40 lg:w-52 h-auto"
   >
     <img
       src={IMAGE_PATH}
@@ -29,7 +28,6 @@ export function ContactSection() {
     />
   </motion.div>
 </div>
-
 
       {/* Contenido principal */}
       <motion.div
