@@ -4,13 +4,11 @@ import { motion } from 'framer-motion';
 export function ImageCard() {
   return (
     <div
-      className="absolute"
+      className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10"
       style={{
-        top: 'clamp(10%, 45%, 90%)', 
-        transform: 'translate(-50%, -50%)',
-        zIndex: 10,
+        top: '35%',       // sube la tarjeta para que quede debajo del texto
         width: 'clamp(250px, 35vw, 480px)',
-        maxWidth: '480px'
+        maxWidth: '480px',
       }}
     >
       <motion.div
